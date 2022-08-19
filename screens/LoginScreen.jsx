@@ -15,9 +15,7 @@ const LoginScreen = () => {
 
   return (
     <SafeAreaView className="bg-white pt-5">
-      <div>Before input</div>
-      <Input />
-      <div>After input</div>
+      <Input type="password" />
     </SafeAreaView>
   );
 }
