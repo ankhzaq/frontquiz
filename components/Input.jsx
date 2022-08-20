@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Entypo } from '@expo/vector-icons';
+import './Input.css';
 
 const CONSTANTS = {
   eye: 'eye',
@@ -42,8 +43,8 @@ const Input = (props) => {
   /* END - TYPE */
 
   return (
-    <div style={{ ...styles.container, ...style.container }}>
-      <input style={{ ...styles.input, ...style.input }} type={typeInput}{...restProps} />
+    <div className="container" style={{ ...styles.container, ...style.container }}>
+      <input className="input" style={{ ...styles.input, ...style.input }} type={typeInput}{...restProps} />
       {EyeIcon}
     </div>
   );
@@ -52,7 +53,6 @@ const Input = (props) => {
 const styles = {
   container: {
     alignItems: 'center',
-    border: '1px solid black',
     display: 'flex'
   },
   input: {

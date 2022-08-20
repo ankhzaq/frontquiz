@@ -1,0 +1,7 @@
+.container {
+  border: 1px solid var(--light-gray);
+}
+
+.input:focus {
+  outline: none;
+}
