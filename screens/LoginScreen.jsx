@@ -15,7 +15,7 @@ const LoginScreen = () => {
 
   return (
     <SafeAreaView className="bg-white pt-5">
-      <Input type="password" />
+      <Input error="Invalid symbols detected" isValid={(value) => (value.length > 2) ? 'more than two characters' : null} />
     </SafeAreaView>
   );
 }
