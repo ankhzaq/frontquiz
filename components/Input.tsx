@@ -1,14 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { ChangeEvent, useEffect, useState } from 'react';
 import { Entypo, MaterialIcons } from '@expo/vector-icons';
+import { EyeType, InputProps } from '../interfaces/input';
 import './Input.css';
 
-const CONSTANTS = {
-  error: 'error',
-  eye: 'eye',
-  eyeCrossed: 'eye-with-line'
-}
-
-const Input = (props) => {
+const Input = (props: InputProps) => {
 
   const {
     errorMsg: errorMsgDefault = null,
@@ -33,7 +28,7 @@ const Input = (props) => {
     setShowPassword(!showPassword);
   }
 
-  const eyeIcon = showPassword ? CONSTANTS.eyeCrossed : CONSTANTS.eye;
+  const eyeIcon: EyeType = showPassword ? 'eye-with-line' : 'eye';
 
   const EyeIcon = type ? (
     <Entypo color="black" name={eyeIcon} onClick={onEyeIconClick} size={24} />
@@ -54,24 +49,26 @@ const Input = (props) => {
     setErroMsg(errorMsg);
   }, [errorMsgDefault]);
 
-  const onChange = (input) => {
-    const value = input.target.value;
+  const onChange = (event: ChangeEvent<HTMLInputElement>) => {
+    // @ts-ignore
+    const value = event.target?.value;
     const nextError = isValid ? isValid(value) : null;
     if (nextError !== errorMsg) {
       setErroMsg(nextError);
     }
-    if (onChangeProps) onChangeProps(input);
+    if (onChangeProps) onChangeProps(event);
   }
 
   /* END - CHECK VALUE IS VALID */
 
   /* START - CLASSNAMES AND STYLES */
 
-  const ErrorIcon = showPassword ? CONSTANTS.eyeCrossed : CONSTANTS.eye;
+  const ErrorIcon = showPassword ? 'eye-with-line' : 'eye';
 
   const ErrorMsg = !errorMsg ? null : (
     <div style={styles.errorMsg}>
-      <MaterialIcons color="black" name={CONSTANTS.error} size={24} style={styles.errorMsg} />
+      {/*@ts-ignore*/}
+      <MaterialIcons color="black" name="error" size={24} style={styles.errorMsg} />
       {errorMsg}
     </div>
   );
@@ -82,7 +79,9 @@ const Input = (props) => {
 
   return (
     <>
+      {/*@ts-ignore */}
       <div className="container" style={{ ...styles.container, ...styleErrorContainer, ...style.container }}>
+        {/*@ts-ignore */}
         <input className="input" onChange={onChange} style={{ ...styles.input, ...style.input }} type={typeInput} {...restProps} />
         {EyeIcon}
       </div>
