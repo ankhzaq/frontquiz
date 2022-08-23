@@ -1,6 +1,6 @@
 import React, { ChangeEvent, useEffect, useState } from 'react';
 import { Entypo, MaterialIcons } from '@expo/vector-icons';
-import { EyeType, InputProps } from '../interfaces/input';
+import { EyeType, InputProps } from '../../interfaces/input';
 import './Input.css';
 
 const Input = (props: InputProps) => {
@@ -62,8 +62,6 @@ const Input = (props: InputProps) => {
   /* END - CHECK VALUE IS VALID */
 
   /* START - CLASSNAMES AND STYLES */
-
-  const ErrorIcon = showPassword ? 'eye-with-line' : 'eye';
 
   const ErrorMsg = !errorMsg ? null : (
     <div style={styles.errorMsg}>

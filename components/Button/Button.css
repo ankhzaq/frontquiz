@@ -1,0 +1,8 @@
+.notOutlined {
+  background-color: var(--primary);
+  color: white !important;
+}
+
+.notOutlined div{
+  padding-right: 5px;
+}
