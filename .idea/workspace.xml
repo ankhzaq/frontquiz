@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a524285-451e-4f12-bd06-c691a281537a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Button/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Input/Input.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/button.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Spacer/Spacer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/spacer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Input.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/Button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Input/Input.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/LoginScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/LoginScreen.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +112,7 @@
       <workItem from="1661089689783" duration="1670000" />
       <workItem from="1661092204314" duration="462000" />
       <workItem from="1661178020195" duration="2280000" />
+      <workItem from="1661266296914" duration="646000" />
     </task>
     <servers />
   </component>

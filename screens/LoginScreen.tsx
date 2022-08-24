@@ -4,6 +4,7 @@ import Input from '../components/Input/Input';
 import React, { useLayoutEffect } from 'react';
 import Button from '../components/Button/Button';
 import { AntDesign } from '@expo/vector-icons';
+import Spacer from '../components/Spacer/Spacer';
 
 
 const LoginScreen = () => {
@@ -18,13 +19,15 @@ const LoginScreen = () => {
   return (
     <SafeAreaView>
       <Input isValid={(value) => (value.length > 2) ? 'more than two characters' : null} />
-      <Button
-        leftIcon={
-          <AntDesign name="google" size={24} color="black" />
-        }
-        outlined={false}
-        text="Sign in with Google"
-      />
+      <Spacer marginTop="15px">
+        <Button
+          leftIcon={
+            <AntDesign name="google" size={24} color="black" />
+          }
+          outlined={false}
+          text="Sign in with Google"
+          onClick={() => console.log("Button")}/>
+      </Spacer>
     </SafeAreaView>
   );
 }

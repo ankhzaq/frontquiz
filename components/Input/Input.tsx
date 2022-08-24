@@ -3,7 +3,7 @@ import { Entypo, MaterialIcons } from '@expo/vector-icons';
 import { EyeType, InputProps } from '../../interfaces/input';
 import './Input.css';
 
-const Input = (props: InputProps) => {
+const Spacer = (props: InputProps) => {
 
   const {
     errorMsg: errorMsgDefault = null,
@@ -110,4 +110,4 @@ const styles = {
   },
 };
 
-export default Input;
+export default Spacer;
