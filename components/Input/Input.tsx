@@ -1,6 +1,6 @@
 import React, { ChangeEvent, useEffect, useState } from 'react';
 import { Entypo, MaterialIcons } from '@expo/vector-icons';
-import { EyeType, InputProps } from '../../interfaces/input';
+import { EyeType, InputProps } from '../../interfacesTypes/input';
 import './Input.css';
 
 const Spacer = (props: InputProps) => {

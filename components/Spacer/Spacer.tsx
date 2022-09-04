@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { SpacerProps } from '../../interfaces/spacer';
+import { SpacerProps } from '../../interfacesTypes/spacer';
 
 const Spacer = (props: SpacerProps) => {
 

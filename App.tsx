@@ -1,4 +1,5 @@
 import React from 'react';
+import StorybookUIRoot from './storybook';
 import './App.css';
 import { TailwindProvider } from "tailwindcss-react-native"
 import { NavigationContainer } from "@react-navigation/native"
@@ -14,6 +15,7 @@ export default function App() {
         <Stack.Navigator>
           { /* Screens */}
           <Stack.Screen name="Login" component={LoginScreen} />
+          <Stack.Screen name="Storybook" component={StorybookUIRoot} />
         </Stack.Navigator>
       </TailwindProvider>
     </NavigationContainer>

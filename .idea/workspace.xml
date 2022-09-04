@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a524285-451e-4f12-bd06-c691a281537a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Spacer/Spacer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/spacer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.storybook/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.storybook/yourTheme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Text/Text.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfacesTypes/text.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook/stories/Text/Text.stories.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/Button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Spacer/Spacer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Spacer/Spacer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/button.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfacesTypes/button.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfacesTypes/input.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/spacer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfacesTypes/spacer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/LoginScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/LoginScreen.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/interfaces" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/storybook/stories/Text" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -54,11 +65,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/interfaces" />
-      <recent name="$PROJECT_DIR$/components" />
+      <recent name="$PROJECT_DIR$/storybook/stories/Text" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/sanity/schemas" />
+      <recent name="$PROJECT_DIR$/components/Button" />
+      <recent name="$PROJECT_DIR$/interfacesTypes" />
+      <recent name="$PROJECT_DIR$/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/components/Input" />
@@ -112,7 +123,11 @@
       <workItem from="1661089689783" duration="1670000" />
       <workItem from="1661092204314" duration="462000" />
       <workItem from="1661178020195" duration="2280000" />
-      <workItem from="1661266296914" duration="646000" />
+      <workItem from="1661266296914" duration="1293000" />
+      <workItem from="1661274766816" duration="317000" />
+      <workItem from="1661352389259" duration="589000" />
+      <workItem from="1661436146928" duration="659000" />
+      <workItem from="1661578629112" duration="12250000" />
     </task>
     <servers />
   </component>

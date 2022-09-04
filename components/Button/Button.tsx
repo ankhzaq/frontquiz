@@ -1,6 +1,6 @@
 import React from 'react';
 import './Button.css';
-import { ButtonProps } from '../../interfaces/button';
+import { ButtonProps } from '../../interfacesTypes/button';
 
 const Button = (props: ButtonProps) => {
 
